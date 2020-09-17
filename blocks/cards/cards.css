@@ -7,3 +7,28 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 1080px) {
+    .cards {
+        margin: 0 auto;
+        max-width: calc(100vw - 20px * 2);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: calc(100vw - 20px * 2);
+        row-gap: 45px;
+        grid-gap: 45px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cards {
+        grid-template-columns: 1fr;
+        max-width: calc(100vw - 20px * 2);
+        row-gap: 25px;
+        grid-gap: 25px;
+    }
+}
