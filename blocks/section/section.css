@@ -12,15 +12,3 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .section {
-      max-width: calc(100vw - 20px * 2);
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .section {
-      max-width: calc(100vw - 20px * 2);
-  }
-}
-
