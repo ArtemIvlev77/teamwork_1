@@ -49,13 +49,16 @@
 @import url(../blocks/footer/__title/footer__title.css); /* Возможно удобнее назвать footer__copyright? */
 
 /* --в случае аварии расскомментировать-- */
-* {
-    outline-width: 1px;
-    outline-style: solid;
-    outline-color: red;
-}
+
 
 
 @import url(../blocks/section/section.css);
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/title/title.css);
+
+
+* {
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: red;
+}

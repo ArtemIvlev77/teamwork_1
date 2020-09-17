@@ -1,0 +1,6 @@
+.intro__image {
+  object-fit: cover;
+  box-sizing: border-box;
+  max-width: 300px;
+  justify-self: center;
+}
