@@ -1,3 +1,7 @@
 .section {
   margin: 0 auto 92px;
 }
+
+.section:last-child {
+  margin: 0 auto;
+}
