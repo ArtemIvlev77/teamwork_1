@@ -2,22 +2,3 @@
     max-width: 984px;
     box-sizing: border-box;
 }
-
-@media screen and (max-width: 1024px) {
-    .footer {
-        margin: 0 auto; 
-        max-width: calc(100vw - 20px * 2);
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .footer {
-        max-width: calc(100vw - 20px * 2);
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .footer {
-        max-width: calc(100vw - 20px * 2);
-    }
-}
