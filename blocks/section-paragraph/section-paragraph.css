@@ -1,16 +1,10 @@
 .section-paragraph {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
 @media screen and (max-width: 1024px) {
   .section-paragraph {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 820px) {
-  .section-paragraph {
-    font-size: 14px;
+    font-size: 12px;
   }
 }

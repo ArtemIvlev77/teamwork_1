@@ -3,7 +3,9 @@
     justify-content: flex-end;
 }
 
-@media screen and (max-width: 375px) {
+
+
+@media screen and (max-width: 450px) {
     .menu__item:last-of-type {
         justify-self: initial;
         justify-content: initial;
