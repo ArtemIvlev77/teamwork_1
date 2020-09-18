@@ -1,6 +1,9 @@
 .place__paragraph {
   margin: 0;
-  align-self: flex-end;
-  font-size: 18px;
-  line-height: 1.05;
+  margin-bottom: 10%;
+  align-self: flex-end; 
+}
+
+.place__paragraph:last-of-type {
+  margin-bottom: 0px;
 }
