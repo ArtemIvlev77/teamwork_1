@@ -1,5 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 600px) ;
+  grid-column: -1/-2;
 }
 
