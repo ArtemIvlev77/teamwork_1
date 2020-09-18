@@ -1,5 +1,6 @@
 .section {
   margin: 24px auto 68px;
+   font-family: 'Inter', Arial, sans-serif;
 }
 
 .section:last-child {
