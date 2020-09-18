@@ -1,3 +1,5 @@
 .place__paragraph-container {
- background-color: color="#f2f2f2";
+ background-color: #f2f2f2;
+ padding: 100px;
+ display:grid;
 }

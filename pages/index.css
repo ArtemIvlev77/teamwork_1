@@ -30,11 +30,10 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__paragraph-container/place__text-container.css); /* Возможно удобнее назвать place__paragraphs? */
+@import url(../blocks/place/__paragraph-container/place__paragraph-container.css); /* Возможно удобнее назвать place__paragraphs? */
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/_box/place_box_waterfall.css);
+@import url(../blocks/place/_box/place_box_mountain-discription.css);
 @import url(../blocks/place/_box/place_box_mountain.css);
-@import url(../blocks/place/_box/place_box_waterfall.css);
 
 /* --people-- */
 @import url(../blocks/people/people.css);

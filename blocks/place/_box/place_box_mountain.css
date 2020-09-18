@@ -1,3 +1,5 @@
 .place_box_mountain {
-  
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row: 1/3;
 }
