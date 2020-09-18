@@ -4,3 +4,11 @@
   font-weight: bold;
   font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+  .highlited-heading {
+    font-size: 12px;
+    line-height: 1.1;
+    ;
+  }
+}

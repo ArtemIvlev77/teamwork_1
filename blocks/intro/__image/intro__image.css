@@ -5,3 +5,9 @@
   justify-self: center;
   padding: 16%;
 }
+
+@media screen and (max-width: 320px) {
+  .intro__image {
+    padding: 0;
+  }
+}

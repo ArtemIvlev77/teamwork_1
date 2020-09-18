@@ -1,3 +1,12 @@
 .people__subtitle {
-  
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+@media screen and (max-width: 320px) {
+  .people__subtitle {
+    text-align: center;
+    ;
+  }
 }
