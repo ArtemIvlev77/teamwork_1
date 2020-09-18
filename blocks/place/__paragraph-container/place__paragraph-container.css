@@ -1,5 +1,12 @@
 .place__paragraph-container {
  background-color: #f2f2f2;
  padding: 48px;
- display: grid;
+ padding-right: 30%;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: flex-end;
+}
+
+.place__paragraph-container:first-child {
+  align-items: flex-start;
 }
