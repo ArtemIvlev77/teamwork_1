@@ -1,6 +1,6 @@
 .place__paragraph {
   margin: 0;
-  margin-bottom: 10%;
+  margin-bottom: 20px;
 }
 
 .place__paragraph:last-of-type {

@@ -55,6 +55,10 @@
 
 
 @import url(../blocks/section/section.css);
+@import url(../blocks/section/_type/section_type_narrow.css);
+@import url(../blocks/section/_type/section_type_wide.css);
+
+
 @import url(../blocks/section-paragraph/section-paragraph.css);
 @import url(../blocks/highlited-heading/highlited-heading.css);
 @import url(../blocks/subtitle/subtitle.css);

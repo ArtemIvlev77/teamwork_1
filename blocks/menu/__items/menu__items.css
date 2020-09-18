@@ -1,6 +1,6 @@
 .menu__items {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 10fr;
+    grid-template-columns: 1fr 1fr 1fr 100fr;
     gap: 25px;
     grid-gap: 25px;
     margin: 0;

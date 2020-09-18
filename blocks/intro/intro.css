@@ -1,5 +1,4 @@
 .intro {
-  max-width: 1184px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
