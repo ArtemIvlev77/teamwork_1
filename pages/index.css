@@ -9,17 +9,12 @@
 
 /* --header-- */
 @import url(../blocks/header/header.css);
-@import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__items/menu__items.css);
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__link/menu__link.css);
 
-/* --content-- */
-@import url(../blocks/content/content.css);
-
 /* --intro-- */
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
 @import url(../blocks/intro/__image/intro__image.css);
 
@@ -30,43 +25,33 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__paragraph-container/place__paragraph-container.css); /* Возможно удобнее назвать place__paragraphs? */
-@import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/_box/place_box_mountain-discription.css);
+@import url(../blocks/place/__paragraph-container/place__paragraph-container.css);
 @import url(../blocks/place/_box/place_box_mountain.css);
 
 /* --people-- */
-@import url(../blocks/people/people.css);
-@import url(../blocks/people/__title/people__title.css);
 @import url(../blocks/people/__subtitle/people__subtitle.css);
 
 /* --cards-- */
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__title/cards__title.css);
-@import url(../blocks/cards/__discription/cards__discription.css); /* Возможно удобнее назвать cards__content или cards__paragraph? */
 
 /* --footer-- */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__cover/footer__cover.css);
-@import url(../blocks/footer/__title/footer__title.css); /* Возможно удобнее назвать footer__copyright? */
+@import url(../blocks/footer/__title/footer__title.css);
 
-/* --в случае аварии расскомментировать-- */
-
-
-
+/* --section-- */
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/_type/section_type_narrow.css);
 @import url(../blocks/section/_type/section_type_wide.css);
-
-
 @import url(../blocks/section-paragraph/section-paragraph.css);
+
 @import url(../blocks/highlited-heading/highlited-heading.css);
-@import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/title/title.css);
 
 
-* {
+/* --в случае аварии расскомментировать-- */
+/* * {
     outline-width: 1px;
     outline-style: solid;
     outline-color: red;
-}
+} */

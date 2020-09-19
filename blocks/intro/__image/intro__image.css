@@ -1,26 +1,32 @@
 .intro__image {
-  object-fit: cover;
-  box-sizing: border-box;
-  max-width: 100%;
-  justify-self: center;
-  padding: 16%;
+    object-fit: cover;
+    box-sizing: border-box;
+    max-width: 100%;
+    justify-self: center;
+    padding: 16%;
 }
 
 @media screen and (max-width: 1024px) {
-  .intro__image {
-    padding: 12%;
-  }
+    .intro__image {
+        padding: 12%;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  .intro__image {
-    padding: 8%;
-  }
+    .intro__image {
+        padding: 8%;
+    }
 }
 
-@media screen and (max-width: 568px) {
-  .intro__image {
-    padding: 0;
-    width: 95%;
-  }
+@media screen and (max-width: 740px) {
+    .intro__image {
+        display: none;
+    }
 }
+
+/* @media screen and (max-width: 568px) {
+    .intro__image {
+        padding: 0;
+        width: 95%;
+    }
+} */

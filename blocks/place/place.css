@@ -1,15 +1,12 @@
 .place {
-  background-color: #f2f2f2;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(min-content, 1fr));
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
 }
 
 @media screen and (max-width: 740px) {
-  .place {
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
+    .place {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
 }
-
-
-

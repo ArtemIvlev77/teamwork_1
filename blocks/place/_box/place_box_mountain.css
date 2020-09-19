@@ -1,13 +1,13 @@
 .place_box_mountain {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row: 1/3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 1/3;
 }
 
 @media screen and (max-width: 740px) {
-  .place_box_mountain {
-    grid-column-start: initial;
-    grid-column-end: initial;
-    grid-row: initial;
-  }
+    .place_box_mountain {
+        grid-column-start: initial;
+        grid-column-end: initial;
+        grid-row: initial;
+    }
 }

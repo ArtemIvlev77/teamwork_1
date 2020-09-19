@@ -1,9 +1,9 @@
 .place__paragraph-container {
- margin: 48px;
- display: flex;
- flex-wrap: wrap;
- align-items: flex-end;
- align-content: flex-end;
+    margin: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: flex-end;
 }
 
 @media screen and (max-width: 1024px) {

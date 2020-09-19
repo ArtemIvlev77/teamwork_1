@@ -6,10 +6,10 @@
     .section_type_narrow {
         max-width: calc(100vw - 48px * 2);
     }
-  }
+}
 
-  @media screen and (max-width: 965px) {
+@media screen and (max-width: 965px) {
     .section_type_narrow {
         max-width: calc(100vw - 24px * 2);
     }
-  }
+}

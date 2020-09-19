@@ -8,7 +8,7 @@
     list-style-type: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 465px) {
     .menu__items {
         grid-template-columns: 1fr;
         row-gap: 25px;

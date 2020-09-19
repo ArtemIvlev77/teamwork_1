@@ -1,14 +1,15 @@
 .highlited-heading {
-  text-transform: uppercase;
-  color: #fecda7;
-  font-weight: bold;
-  font-size: 14px;
+    text-transform: uppercase;
+    color: #fecda7;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 768px) {
-  .highlited-heading {
-    font-size: 12px;
-    line-height: 1.1;
-    ;
-  }
+    .highlited-heading {
+        font-size: 12px;
+        line-height: 1.1;
+    }
 }
