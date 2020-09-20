@@ -3,6 +3,15 @@
     align-items: center;
     justify-content: center;
     min-height: 230px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    max-width: 100%;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 465px) {
+    .footer__title {
+        max-width: 90%;
+    }
 }
